@@ -1,10 +1,11 @@
 import React from 'react'
+import backgroundImage from '@assets/backgroud.jpg'
 
 function App() {
   return (
     <div>
-      Hello world
-      {process.env.PORT}
+      <img src={backgroundImage} />
+      By Vu Tuan Anh
     </div>
   )
 }
